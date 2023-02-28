@@ -6,6 +6,45 @@ body {
   box-sizing: border-box;
 }
 
+
+/* Buttons */
+
+.primary-button {
+  background-color: #8BC34A;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #689F38;
+}
+
+.secondary-buton {
+  background-color: #689F38;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.secondary-button:hover {
+  background-color: #8BC34A;
+}
+
 /* Navigation */
   
 .navbar {
@@ -138,4 +177,83 @@ body {
 .why-buy .feature p {
   font-size: 16px;
   color: #666;
+}
+
+/* Types of supplement*/
+#food{
+  padding: 12px 0 100px 0;
+}
+
+#food h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.food-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-container img{
+  display: block;
+  width: 100%;
+  margin: auto;
+  max-height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-container{
+  margin: 0 1rem;
+  position: relative;
+}
+
+.img-content{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-content h3{
+  color: #fff;
+  font-size: 3rem;
+}
+
+.img-content a{
+  font-size: 1.2rem;
+}
+
+.img-container::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 84, 61, 0.870);
+  z-index: 1;
+
+  transform: scaleY(0);
+  transform-origin: 100% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-container:hover::after{
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.img-container:hover .img-content{
+  opacity: 1;
+  top: 50%;
 }
