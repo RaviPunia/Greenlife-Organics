@@ -104,3 +104,38 @@ body {
   max-height: 100%; 
   object-fit: contain; 
 }
+
+/*why buy from us */
+.why-buy {
+  background-color: #f8f8f8;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for the feature boxes */
+.why-buy .feature {
+  text-align: center;
+  margin: 0 20px 20px;
+  max-width: 350px;
+}
+
+.why-buy .feature a {
+  font-size: 48px;
+  border-radius: 50%;
+  height: 100px;
+  margin-bottom: 20px;
+  color: #22543D;
+}
+
+.why-buy .feature h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.why-buy .feature p {
+  font-size: 16px;
+  color: #666;
+}
