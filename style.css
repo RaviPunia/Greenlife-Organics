@@ -6,6 +6,12 @@ body {
   box-sizing: border-box;
 }
 
+/* ############### Utility classes ############# */
+.container{
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
 
 /* Buttons */
 
@@ -317,4 +323,45 @@ p {
 }
 .social {
   text-align: center;
+}
+
+/* ############################################# About Us ################################################## */
+.about-section{
+  background: url(./images/pexels-shvets-production-7195272.jpg) no-repeat left;
+  background-size: 50%;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 50px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inner-container{
+  width: 50%;
+  float: right;
+  background-color: #F7F7F7;
+  padding: 150px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center; /* Center the content */
+  box-sizing: border-box;
+}
+
+.text{
+  font-size: 13px;
+  color: #333;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
 }
