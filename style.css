@@ -22,8 +22,19 @@ h1,h2,h3,h4,h5,h6 {
 a {
     font-family: "Open Sans";
   }
-  
 
+.breadcrumbs {
+    background-color: #E8E8E8;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px;
+  }
+  .breadcrumbs a{
+    text-decoration: none;
+    color: #333;
+  }
 /* Buttons */
 
 .primary-button {
@@ -337,6 +348,8 @@ p {
 }
 
 /* ############################################# About Us ################################################## */
+
+
 .about-section{
   background: url(./images/pexels-shvets-production-7195272.jpg) no-repeat left;
   background-size: 50%;
