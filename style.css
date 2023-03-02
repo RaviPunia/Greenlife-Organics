@@ -447,6 +447,7 @@ text-align: center;
 	justify-content: center;
 	align-items: center;
 	padding: 20px 0px;
+  z-index: -1;
 }
 
 .container:after{
