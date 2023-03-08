@@ -609,7 +609,7 @@ textarea{
       display: flex;
       flex-direction: column;
     }
-
+/* ################### Mobile Supplements #####################*/
     #food {
       padding: 8px 0 60px 0;
     }
@@ -639,7 +639,7 @@ textarea{
     .img-content a {
       font-size: 1rem;
     }
-
+/* ################### Mobile Footer #####################*/
     footer {
       padding: 0.5em;
     }
@@ -657,5 +657,17 @@ textarea{
     footer a {
       margin-right: 0.5em;
     }
-  }
+
+    .breadcrumbs {
+      display: none;
+    }
   
+    .card {
+      width: 90%;
+      height: auto;
+      margin: 10px 0;
+    }
+  .card-body {
+    margin-bottom: 20px;
+  }
+  }
