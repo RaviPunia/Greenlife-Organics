@@ -517,7 +517,7 @@ text-align: center;
 }
 
 .left{
-	background: url("images/output.png") no-repeat center;
+	background: url("images/output.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
