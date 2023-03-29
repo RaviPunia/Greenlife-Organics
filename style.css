@@ -145,6 +145,7 @@ a {
   .nav-item:hover .sub-menu {
     display: block;
     list-style: none;
+    z-index: 2;
   }
 
 
@@ -163,7 +164,6 @@ a {
   font-size: 36px;
   color: #fff;
   text-align: center;
-  z-index: -1;
 }
 
 
